@@ -25,13 +25,16 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          БАЛКОН
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+          Превращаем балкон в уютное пространство — под ключ, с гарантией и в срок
         </p>
+        <button className="bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Рассчитать стоимость
+        </button>
       </div>
     </div>
   );
